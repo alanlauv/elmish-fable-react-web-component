@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///counterComponent.css"],"names":[],"mappings":"AAAA;EACE,2BAA2B;EAC3B,aAAa;AACf,C","file":"main.css","sourcesContent":[".elmish {\r\n  background-color: LightBlue;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}
