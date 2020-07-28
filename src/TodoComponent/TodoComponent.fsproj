@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <FSharpCoreImplicitPackageVersion>4.7.2</FSharpCoreImplicitPackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +10,9 @@
     <Compile Include="ElmishToReactCopy.fs" />
     <Compile Include="TodoComponent.fs" />
   </ItemGroup>
-
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <ItemGroup>
+    <PackageReference Include="Feliz" Version="1.7" />
+    <PackageReference Include="Fable.Elmish.ElmishToReact" Version="0.0.2" />
+  </ItemGroup>
 
 </Project>
