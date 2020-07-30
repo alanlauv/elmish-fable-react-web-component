@@ -5,10 +5,11 @@ var babelOptions = {
     presets: [
         ["@babel/preset-env", {
             "targets": {
-                "browsers": ["last 2 versions"]
-            },
+                "browsers": "last 2 Chrome versions, last 2 Firefox versions, last 2 Safari versions, last 2 iOS versions, last 2 Edge versions, last 2 Android versions"
+                },
             "modules": false
-        }], "@babel/preset-react"
+        }],
+        "@babel/preset-react"
     ],
     plugins: ["@babel/plugin-transform-runtime"]
 };
