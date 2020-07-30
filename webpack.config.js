@@ -55,11 +55,11 @@ module.exports = {
         ]
     },
     plugins: [new MiniCssExtractPlugin()]
-    // ,resolve: {
-    //     alias: {
-    //         "react": "preact/compat",
-    //         "react-dom/test-utils": "preact/test-utils",
-    //         "react-dom": "preact/compat"
-    //     }
-    // }
+    ,resolve: {
+        alias: {
+            "react": "preact/compat",
+            "react-dom/test-utils": "preact/test-utils",
+            "react-dom": "preact/compat"
+        }
+    }
 };
