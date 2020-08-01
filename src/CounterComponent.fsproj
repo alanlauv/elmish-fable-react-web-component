@@ -10,7 +10,7 @@
     <Compile Include="CounterComponent.fs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Feliz" Version="1.7" />
+    <PackageReference Include="Feliz" Version="1.10" />
     <PackageReference Include="Fable.Elmish.ElmishToReact" Version="0.0.2" />
   </ItemGroup>
 </Project>
